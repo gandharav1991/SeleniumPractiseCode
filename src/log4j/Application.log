@@ -1,0 +1,30 @@
+2017-04-18 00:21:43,402 TRACE [class] jai mata di 
+2017-04-18 00:21:43,436 INFO  [class] start 
+2017-04-18 00:21:43,436 DEBUG [class] maa 
+2017-04-18 00:21:43,436 WARN  [class] shama karna maa 
+2017-04-18 00:21:43,436 ERROR [class] sry 
+2017-04-18 00:21:43,436 FATAL [class] aum namah shivae 
+2017-04-18 00:22:14,378 TRACE [Log4j] jai mata di 
+2017-04-18 00:22:14,379 INFO  [Log4j] start 
+2017-04-18 00:22:14,379 DEBUG [Log4j] maa 
+2017-04-18 00:22:14,379 WARN  [Log4j] shama karna maa 
+2017-04-18 00:22:14,379 ERROR [Log4j] sry 
+2017-04-18 00:22:14,379 FATAL [Log4j] aum namah shivae 
+2017-04-18 00:22:28,185 TRACE [---->>] jai mata di 
+2017-04-18 00:22:28,186 INFO  [---->>] start 
+2017-04-18 00:22:28,186 DEBUG [---->>] maa 
+2017-04-18 00:22:28,186 WARN  [---->>] shama karna maa 
+2017-04-18 00:22:28,186 ERROR [---->>] sry 
+2017-04-18 00:22:28,186 FATAL [---->>] aum namah shivae 
+2017-04-18 00:24:33,114 TRACE [---->>] jai mata di 
+2017-04-18 00:24:33,115 INFO  [---->>] start 
+2017-04-18 00:24:33,115 DEBUG [---->>] maa 
+2017-04-18 00:24:33,115 WARN  [---->>] shama karna maa 
+2017-04-18 00:24:33,115 ERROR [---->>] sry 
+2017-04-18 00:24:33,115 FATAL [---->>] aum namah shivae 
+2017-04-18 00:25:25,236 TRACE [---->>] jai mata di 
+2017-04-18 00:25:25,237 INFO  [---->>] start 
+2017-04-18 00:25:25,237 DEBUG [---->>] maa 
+2017-04-18 00:25:25,237 WARN  [---->>] shama karna maa 
+2017-04-18 00:25:25,237 ERROR [---->>] sry 
+2017-04-18 00:25:25,237 FATAL [---->>] aum namah shivae 

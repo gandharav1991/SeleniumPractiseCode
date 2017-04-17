@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testng suite"  parallel="classes">
+    <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test verbose="5"  name="1">
+      <parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="testNgSuite.Google"/>
+    </classes>
+    </test>
+     <test verbose="5" name="2">
+         <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="testNgSuite.Yahoo"/>
+    </classes>
+    </test>
+     <test verbose="5" name="3">
+         <parameter name="browser" value="IE"></parameter>
+    <classes>
+      <class name="testNgSuite.Youtube"/>
+    </classes>
+    
+  </test> <!-- Default test -->
+</suite> 

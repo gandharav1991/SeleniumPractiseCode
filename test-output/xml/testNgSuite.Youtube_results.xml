@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="3"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.742">
+  <properties />
+  
+  
+            <testcase name="openGoogle" time="7.742" classname="testNgSuite.Youtube" />
+      
+</testsuite>

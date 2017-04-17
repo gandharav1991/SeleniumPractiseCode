@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testng suite]" parallel="classes">
+  <parameter name="browser" value="IE"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="2(failed)" parallel="classes">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testNgSuite.Google">
+        <methods>
+          <include name="shutdown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- testNgSuite.Google -->
+      <class name="testNgSuite.Youtube">
+        <methods>
+          <include name="shutdown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- testNgSuite.Youtube -->
+      <class name="testNgSuite.Yahoo">
+        <methods>
+          <include name="openGoogle"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- testNgSuite.Yahoo -->
+    </classes>
+  </test> <!-- 2(failed) -->
+</suite> <!-- Failed suite [Testng suite] -->
